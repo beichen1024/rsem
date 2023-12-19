@@ -3,10 +3,11 @@
 	"schema": "v3",
 	"displayName": "RSEM",
 	"description": "RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data",
-	"title": "RSEM",
-	"workflowVersion": "v1.0.0",
+	"title": "beichen1024/rsem",
+	"workflowVersion": "main",
 	"workflowLanguage": "wdl",
 	"categories": ["Genomics"],
+	"config":{"mainScript":"rsem.wdl"},
 	"inputs": {
 		"wdlJSON": {
 			"title": "Input File",
